@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+    <id>Directus.Metrics.AWS</id>
+    <version>1.0.1</version>
+    <authors>Josh Rolstad</authors>
+    <owners>Josh Rolstad</owners>
+    <description>Tools to measure your application using AWS as a data store</description>
+    <projectUrl>http://github.com/jrolstad/Directus.Metrics</projectUrl>
+    <copyright>Copyright 2012</copyright>
+    <tags>validatedlearning metrics featureusage aws</tags>
+      <dependencies>
+	    <dependency id="AWSSDK " version="1.4.6.3" />
+      <dependency id="Directus.Metrics " version="1.0.1" />
+    </dependencies>
+    </metadata>
+    <files>
+        <file src="Directus.Metrics.Features.Aws\bin\Release\Directus.Metrics.Features.Aws.dll" target="lib\net40"/>
+    </files>
+	
+</package>

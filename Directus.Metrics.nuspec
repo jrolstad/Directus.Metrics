@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>Directus.Metrics</id>
+        <version>1.0.1</version>
+        <authors>Josh Rolstad</authors>
+        <owners>Josh Rolstad</owners>
+        <description>Tools to measure your application</description>
+		<projectUrl>http://github.com/jrolstad/Directus.Metrics</projectUrl>
+        <copyright>Copyright 2012</copyright>
+        <tags>validatedlearning metrics featureusage</tags>
+    </metadata>
+    <files>
+        <file src="Directus.Metrics.Features\bin\Release\Directus.Metrics.Features.dll" target="lib\net40"/>
+    </files>
+	
+</package>
