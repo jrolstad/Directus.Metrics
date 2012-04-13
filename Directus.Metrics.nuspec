@@ -2,11 +2,11 @@
 <package >
     <metadata>
         <id>Directus.Metrics</id>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <authors>Josh Rolstad</authors>
         <owners>Josh Rolstad</owners>
         <description>Tools to measure your application</description>
-		<projectUrl>http://github.com/jrolstad/Directus.Metrics</projectUrl>
+		    <projectUrl>http://github.com/jrolstad/Directus.Metrics</projectUrl>
         <copyright>Copyright 2012</copyright>
         <tags>validatedlearning metrics featureusage</tags>
     </metadata>
