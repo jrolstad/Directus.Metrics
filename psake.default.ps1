@@ -40,7 +40,8 @@ Task NugetDeploy -Depends NugetPack {
    
     gci $nugetPackagesDirectory  *.nupkg | 
         ForEach-Object {
-            $expression = ".\.nuget\nuget.exe push {0} -ApiKey {1}" -f $_.Name, $nugetApiKey
-            Invoke-Expression write-host $expression
+		
+            $expression = ".\.nuget\nuget.exe push {0} {1}" -f $_.FullName, $nugetApiKey
+            Invoke-Expression $expression
         }
 }
